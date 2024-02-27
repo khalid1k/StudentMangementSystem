@@ -1,0 +1,355 @@
+.nav-bar{
+    margin: 0;
+    background-color:#0C1A1A;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+}
+.nav li a{
+    text-decoration: none;
+    color:#6ACFC7;
+    font-weight: 500;
+}
+.nav li a:hover{
+    background-color: #E57C23;
+    color: white;
+}
+.footer{
+    position:absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #0C1A1A;
+    padding:15px;
+    text-align: center;
+    color: #6ACFC7;
+    font-weight: 700;
+}
+.registration{
+    position: absolute;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.reg-input{
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+    padding-left: 10px;
+    border: 1px solid skyblue;
+    border-radius: 5px;
+}
+.form-btn{
+    height: 30px;
+    color: white;
+    background-color: skyblue;
+    width: 300px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    
+}
+.form-btn:hover{
+    background-color: cyan;
+}
+.search-student{
+    position: absolute;
+    right: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.mark-input1{
+    height: 28px;
+    border:1px solid skyblue;
+    margin-top: 4px;
+}
+.search-resul1{
+    position: absolute;
+    left: 0;
+    margin-top: 4px;
+}
+.search-resul1 ul{
+    list-style: none;
+    margin: 0;
+}
+.search-resul1 ul li{
+    display: inline-block;
+    padding: 5px;
+    border:1px solid skyblue;
+    width: 200px;
+}
+
+
+.marks-inputFields{
+    position:absolute;
+    right: 10%;
+    top:25%;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.marks-fields{
+    width: 250px;
+    height: 33px;
+    border: 1px solid skyblue;
+    border-radius: 3px;
+}
+.report-inputFields{
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.report-search-field{
+    width: 250px;
+    height: 33px;
+    border: 1px solid skyblue;
+    border-radius: 3px;
+}
+.report-container{
+    position: absolute;
+    left: 2%;
+    top: 10%;
+}
+.report-container table,th,td{
+    border: 1px solid skyblue;
+    
+}
+.report-table{
+        border-collapse: collapse;
+}
+.update-inputFields{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    
+}
+.report-search{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.report-btn{
+    height: 35px;
+}
+.report-btn:hover{
+    cursor: pointer;
+    background-color: cyan;
+    
+}
+.report-search-btn{
+    height: 33px;
+    background-color: skyblue;
+    color: white;
+    font-weight: 600;
+    border: none;
+}
+.report-search-btn:hover{
+    cursor: pointer;
+    background-color: cyan;
+}
+.email-file-container{
+    position:absolute;
+    top: 15%;
+    left: 30%;
+    width:40%;
+}
+.text-area{
+    
+        width: 100%;
+        height: 250px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid skyblue;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        font-size: 16px;
+        resize: none;
+      
+}
+.email-btn{
+    margin-left: 35%;
+    width: 25%;
+    height: 33px;
+    margin-top: 15px;
+    background-color: skyblue;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+}
+.email-btn:hover{
+    background-color: cyan;
+}
+.fee-container{
+    position: absolute;
+    top:8%;
+    left: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fee-btn-container{
+    display: flex;
+    gap:40px;
+}
+.fee-btn{
+    background-color: skyblue;
+    height: 33px;
+    border: none;
+}
+.fee-btn:hover{
+    background-color: cyan;
+    cursor: pointer;
+}
+.students-btn{
+    position:absolute;
+    top:10%;
+    right: 2%;
+}
+.students-btn button{
+    height: 33px;
+    background-color: #088395;
+    border: none;
+    color: white;
+    width:200px;
+    font-weight: 700;
+}
+.students-btn button:hover{
+    cursor: pointer;
+    background-color: #E57C23;
+}
+.student-container{
+    position: absolute;
+    top:15%;
+    left: 2%;
+    width:100%;
+}
+.student-container table{
+    width:85%;
+}
+.student-container th{
+    height: 20px;
+    background-color:#088395;
+    color:white;
+    padding: 5px;
+}
+.student-container caption{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.student-container td{
+    text-align: center;
+    background-color: #9ED2BE;
+    padding: 2px;
+}
+.student-container table tr:hover td{ 
+    background-color: #E57C23;
+    color: white;
+}
+.fee-status-input-field{
+   position: absolute;
+   top: 12%;
+   right:2%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+.fee-status-input-field-btn{
+    display: flex;
+    gap: 20px;
+}
+.fs-input{
+    height: 33px;
+    border: 1px solid skyblue;
+    border: 1px solid #088395;
+}
+.fs-btn{
+    background-color: #088395;
+    color: white;
+    font-weight: 500;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.fs-btn:hover{
+    background-color: #E57C23;
+}
+.Update-marks-search{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    right:2%;
+    top: 15%;
+}
+.update-marks-inputFields{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+.update-getData-btn{
+    width: 250px;
+    height: 33px;
+    background-color: #088395;
+    color: white;
+    border: none;
+}
+.update-getData-btn:hover{
+    cursor: pointer;
+    background-color: #E57C23;
+}
+label{
+    font-weight: 600;
+}
+.admin-container{
+
+    position: absolute;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.admin-inputFields{
+    width: 300px;
+    height: 30px;
+    margin: 5px;
+    padding-left: 10px;
+    border: 2px solid skyblue;
+    border-radius: 5px;
+}
+.login-btns-container{
+    display: flex;
+    gap: 15px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.login-btn{
+    height: 30px;
+    width: 150px;
+    background-color: #088395;
+    color: white;
+    font-weight: 700;
+}
+.login-btn:hover{
+    background-color: #E57C23;
+    border: none;
+    cursor: pointer;
+}
